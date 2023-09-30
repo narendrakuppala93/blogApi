@@ -11,7 +11,7 @@ app.use("/api/user", router);
 app.use("/api/blog", blogRoute);
 
  mongoose.connect(
-    "mongodb+srv://admin:1234@cluster0.gufdyje.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://narendra:1234@cluster0.qdutfy8.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
   )
   .then(() => app.listen(5000))
   .then(() =>
